@@ -23,7 +23,7 @@ public class GameMaster : MonoBehaviour
         if(hasLost == false)
         {
             scoreValue = Time.timeSinceLevelLoad.ToString("F0");
-            score.text = scoreValue;
+            //score.text = scoreValue;
         }
     }
     public void GameOver()
